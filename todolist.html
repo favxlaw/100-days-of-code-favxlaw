@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> TO DO LIST </title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+
+<header>
+    <h1>TO DO LIST</h1>
+
+<form id="new-task-form">
+    <input type="text" 
+    id="new-task-input"
+    placholder="PLANS FOR TODAY"/>
+
+    <input type="submit"
+    id='new-task-submit'
+    value="ADD PLANS"
+</form>
+
+</header>
+
+<main>
+
+<section class="todo-list">
+    <h2>PLANS</h2>
+
+
+    <div id="plans">
+<div class="plan">
+<div class="content">
+<input type="text"
+value="GOALS"
+class="text"
+readonly
+>
+
+</div>
+<div class="actions">
+    <button class="edit">EDIT</button>
+    <button class="delete">X</button>
+</div>
+
+
+</div>
+
+
+
+
+    </div>
+</section>
+
+
+
+</main>
+
+ <script src="todolist.js"></script>   
+</body>
+</html>
